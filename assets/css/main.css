@@ -1,7 +1,6 @@
-/*@import url("fontawesome-all.min.css");
-*/
+@import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css");
+
 
 
 /*
@@ -1925,7 +1924,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 6 Free';
+				font-family: 'Font Awesome 5 Free';
 				font-weight: 900;
 			}
 
@@ -2029,7 +2028,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 6 Free';
+			font-family: 'Font Awesome 5 Free';
 			font-weight: 400;
 		}
 
@@ -2046,7 +2045,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 6 Brands';
+			font-family: 'Font Awesome 5 Brands';
 		}
 
 /* Image */
@@ -2400,7 +2399,7 @@ input, select, textarea {
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 6 Free';
+				font-family: 'Font Awesome 5 Free';
 				font-weight: 400;
 			}
 
@@ -3074,7 +3073,7 @@ input, select, textarea {
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 6 Free';
+						font-family: 'Font Awesome 5 Free';
 						font-weight: 900;
 					}
 
