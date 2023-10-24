@@ -147,25 +147,34 @@
 											<a href="#" class="image"><img src="images/CERL/adcp_field_test.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>What?</h4>
-												<p>The Automated Dynamic Cone Penetrometer (ADCP) is utilizes a
-													 Python-based state machine implementation with ROS integration to ADCP, depth camera, and GPS.
-													 Terrain is characterized into a GO/NOGO map to traverse safely.</p>
+												<p>The Dynamic Cone Penetration Test is performed by driving a metal cone into the ground, repeatedly striking
+													it with an 8 kg weight dropped from a distance of 575 mm. The Automated Dynamic Cone Penetrometer (ADCP) 
+													is an automated solution to this manual test.
+
+													The ADCP utilizes a Python-based state machine implementation with ROS integration to ADCP, depth camera, and GPS.
+
+													
+													
+													</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/CERL/adcp_gui.png" alt="" /></a>
 											<div class="inner">
 												<h4>How?</h4>
-												<p>
-													 Graphical User Interface displays rut depth and rut depth change, camera status, and current state. 
-													 As the ADCP is hammered into the ground, the number of blows & depth in mm is displayed.</p>
+												<p>A depth camera is attached to the ADCP to constantly track the ruts created by the front vehicle.
+													When the rut passes a depth threshold, a message will be sent to the user to start a test.
+													 An interactive GUI displays rut depth and rut depth change, camera status, and current state. 
+													 As the ADCP rod is hammered into the ground, the number of blows & depth in mm is displayed.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/CERL/geo_tiff_map.jpg" alt="" /></a>
 											<div class="inner">
 												<h4>Results</h4>
-												<p>When a test is intialized, the GPS location is pinged. The location and results are saved to .CSV file and published. 
+												<p>When a test is queued, the GPS location is pinged. Then, the ADCP hammers the rod into the ground, 
+													testing the Cone Index (CI) & Vehicle CI (VCI) coefficients of the soil to determine 
+													whether or not it's safe to continue onward. The location and results are saved to .CSV file and published. 
 													Additionally, a location based a-priori map is created with GO/NOGO indications.
 												</p>
 											</div>
